@@ -4,31 +4,33 @@ import logo from "../assets/LOGO.png";
 
 const Navbar = () => {
   return (
-    <div className="navbar flex justify-around m-6 relative ">
-      <p>
+    <>
+    <div  className="flex justify-between container p-5 absolute top-0 w-full">
+      <div >
         <img src={logo} alt="logo" />
-      </p>
-      <div className="flex justify-around gap-16">
-        <p className="text-[#0052FF] font-Mulish">
-          <a href="#home">Home</a>
-        </p>
-        <p>
-          <a href="#about-us">About us</a>
-        </p>
-        <p>
-          <a href="#services">Services</a>
-        </p>
-        <p>
-          <a href="#pages">Pages</a>
-        </p>
-        <p>
-          <a href="#blog">Blog</a>
-        </p>
-        <p>
-          <a href="#contact-us">Contact us</a>
-        </p>
       </div>
+      <ul className="flex space-x-10 text-white font-semibold">
+        <li className="text-[#0052FF] cursor-pointer font-Mulish">
+          <a href="#home">Home</a>
+        </li>
+        <li className="cursor-pointer">
+          <a href="#about-us">About us</a>
+        </li>
+        <li className="cursor-pointer">
+          <a href="#services">Services</a>
+        </li>
+        <li className="cursor-pointer">
+          <a href="#pages">Pages</a>
+        </li>
+        <li>
+          <a href="#blog">Blog</a>
+        </li>
+        <li>
+          <a href="#contact-us">Contact us</a>
+        </li>
+      </ul>
     </div>
+    </>
   );
 };
 
