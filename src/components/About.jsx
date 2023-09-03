@@ -5,22 +5,23 @@ import medicalDoctor from "../assets/icons8_Medical_Doctor_200px 1.jpg";
 
 const About = () => {
   return (
-    <div className="container flex justify-around text-center py-16 ">
-      <div className="">
-        <img src={doctorBag} alt="Doctor Bag" />
+    <>
+    <div className="flex item-center justify-between px-16 space-x-6 mt-7 py-16 ">
+      <div className="flex flex-col gap-3 text-center items-center">
+        <img className="" src={doctorBag} alt="Doctor Bag" />
         <h1 className="text-[#0052FF] font-semibold text-lg">
           24 Hour Emergency
         </h1>
         <p>Open round the clock for convenience, quick and easy acces</p>
       </div>
-      <div className=" ">
-        <img src={labItems} alt="lab Items" sizes="6px" />
+      <div className="flex flex-col gap-3 text-center items-center">
+        <img src={labItems} alt="lab Items" />
         <h1 className="text-[#0052FF] font-semibold text-lg">
           Complete lab sevice
         </h1>
         <p>Cost-efficient, comprehensive and clinical laboatory services</p>
       </div>
-      <div className="">
+      <div className="flex flex-col gap-3 text-center items-center">
         <img src={medicalDoctor} alt="medical doctor" />
         <h1 className="text-[#0052FF] font-semibold text-lg">
           Medical Professionals
@@ -28,6 +29,7 @@ const About = () => {
         <p>Qualifed and certified physicians for quality medical care</p>
       </div>
     </div>
+    </>
   );
 };
 
