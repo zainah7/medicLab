@@ -1,5 +1,5 @@
 import React from "react";
-import Psychiatry from "../assets/icons8_lab_items_240px_1 1.jpg";
+import Psychiatry from "../assets/icons8_brain_200px 1.jpg";
 import Laboratory from "../assets/icons8_test_tube_240px 1.jpg";
 import Dentistry from "../assets/icons8_tooth_100px_1 1.jpg";
 import Cardiology from "../assets/icons8_heart_with_pulse_100px_1 1.jpg";
