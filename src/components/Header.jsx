@@ -4,11 +4,11 @@ import headerImg from "../assets/Rectangle 2.jpg";
 const Header = () => {
   return (
     <div className="overflow-hidden ">
-     <div className="imageWrapper relative">
+      <div className="imageWrapper relative">
         <img src={headerImg} alt="header-img" className="w-full" />
         <div className="overlay absolute inset-0 bg-gray-900 opacity-40"></div>
       </div>
-      
+
       <div class="space-y-7 absolute top-1/3 left-1/3 flex flex-col justify-center items-center">
         <h2 className="text-white font-bold text-4xl justify-center  ">
           We Provide
