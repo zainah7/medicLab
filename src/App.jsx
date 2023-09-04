@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import OurSpecialists from "./components/OurSpecialists";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
+// import Faq from "./components/Faq";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
         <About />
         <OurDepartments />
         <Services />
+        {/* <Faq /> */}
         <OurSpecialists />
         <Testimonial />
         <Footer />

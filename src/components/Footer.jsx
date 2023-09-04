@@ -13,11 +13,11 @@ const Footer = () => {
       <div className="pb-12 ">
         <img src={map} alt="map" />
       </div>
-      <div className="flex flex-col justify-center items-center space-y-3 pb-10">
+      <div className=" text-center space-y-3 mb-10">
         <h1 className="text-3xl  font-medium">Contact Us</h1>
         <p className="text-xl text-[#3A3A3A] ">Do not Hesitate to contact us</p>
       </div>
-      <div className="flex items-center justify-around">
+      <div className="flex items-center justify-between px-20">
         <div className="flex flex-col gap-3 text-center items-center">
           <img src={marker} alt="marker" />
           <h1 className="text-lg text-[#3A3A3A]">Our Address</h1>
@@ -39,14 +39,14 @@ const Footer = () => {
         </div>
       </div>
       <div className="">
-        <div className=" bg-[#0052FF] w-[1440px] h-[130px] mt-10 items-center">
+        <div className=" bg-[#0052FF] p-10 mt-10 items-center">
           <div className="flex justify-around">
-            <h1 className="text-3xl text-[#FFFFFF] font-bold ">Medilab</h1>
+            <h1 className="text-4xl text-[#FFFFFF] font-bold ">Medilab</h1>
             <div className="flex justify-around items-center ">
               <p className="text-[#FFFFFF]">Medi. Copyright 2020</p>
             </div>
             <div className="text-[#FFFFFF]">
-              <div className="flex justify-around gap-10 items-center">
+              <div className="flex text-2xl justify-around gap-10 items-center">
                 <FaLinkedinIn />
                 <AiOutlineYoutube />
                 <BiLogoFacebook />

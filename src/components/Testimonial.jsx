@@ -11,7 +11,7 @@ const Testimonial = () => {
         <img src={Testimonial_img} alt="Testimonial img" className="" />
         <div className="overlay absolute inset-0 bg-[#0052FF80] opacity-100"></div>
 
-        <h1 className=" absolute top-1 left-1/2  translate-y-1/2  font-lg text-[#ffffff] text-3xl">
+        <h1 className=" absolute top-1 right-96 left-1/3  translate-y-1/2  font-lg text-[#ffffff] text-3xl">
           Testimonial
         </h1>
         <img
@@ -19,13 +19,15 @@ const Testimonial = () => {
           alt="Ellipse img"
           className="absolute  top-1/4 left-1/2"
         />
-        <p className="absolute top-1/2 left-1/3 text-[#FFFFFF]">
+        <div class="space-y-7 absolute top-1/2 right-96 left-1/3 flex flex-col justify-center items-center">
+        <p className="text-[#FFFFFF]">
           “Joby made searching for a job easier and reduced the time framewhile
           eliminating the office to office conventional mode of application”
         </p>
-        <div className="absolute top-1/2 left-1/2 justify-between">
+        <div className="flex">
           <img src={star} alt="star" />
           <img src={Orlando_Philip} alt=" Orlando Philip img" />
+        </div>
         </div>
       </div>
     </div>
