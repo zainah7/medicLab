@@ -1,7 +1,7 @@
 import React from "react";
 import William_Geralg from "../assets/Rectangle 20.jpg";
-import Mike_Ebube from "../assets/Mike_Ebube.png";
-import Egbon_Cedric from "../assets/Egbon_Cedric.png";
+import Mike_Ebube from "../assets/Rectangle 21.jpg";
+import Egbon_Cedric from "../assets/Rectangle 22.jpg";
 
 const OurSpecialists = () => {
   return (
