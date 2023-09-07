@@ -17,17 +17,17 @@ const Testimonial = () => {
         <img
           src={Ellipse}
           alt="Ellipse img"
-          className="absolute  top-1/4 left-1/2"
+          className="hidden md:block  absolute top-14 left-44 md:top-1/4 md:left-1/2"
         />
-        <div class="space-y-7 absolute top-1/2 right-96 left-1/3 flex flex-col justify-center items-center">
+        <div class="md:space-y-7 text-sm md:text-lg absolute top-14 md:top-1/2 md:right-96 md:left-1/3 flex flex-col justify-center items-center">
           <p className="text-[#FFFFFF]">
             “Joby made searching for a job easier and reduced the time
             framewhile eliminating the office to office conventional mode of
             application”
           </p>
           <div className="flex gap-4">
-            <img src={star} alt="star" />
-            <img src={Orlando_Philip} alt=" Orlando Philip img" />
+            <img className="w-20" src={star} alt="star" />
+            <img className="w-20" src={Orlando_Philip} alt=" Orlando Philip img" />
           </div>
         </div>
       </div>

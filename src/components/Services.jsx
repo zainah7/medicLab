@@ -12,8 +12,8 @@ const Services = () => {
             Our Services
           </h1>
         </div>
-        <div className="flex justify-center space-x-10 p-10 ">
-          <div className="flex flex-col items-start gap-3 border-2 border-[#0052FF] w-[370px] px-4 py-10 h-[480px] rounded-lg space-x-4 ">
+        <div className="md:flex justify-center md:space-x-10 p-10 ">
+          <div className="flex flex-col items-start gap-3 border-2 border-[#0052FF] md:w-[370px] px-4 py-10 md:h-[480px] mb-5 rounded-lg space-x-4 ">
             <img src={nurse} alt="nurse" />
             <h1 className="font-Mulish text-[#0052FF] font-semibold text-lg ">
               Prima Care Physicia
@@ -32,7 +32,7 @@ const Services = () => {
               </ul>
             </div>
           </div>
-          <div className="flex flex-col items-start gap-3 border-2 border-[#0052FF] w-[370px] px-4  py-10  h-[480px] rounded-lg space-x-4 ">
+          <div className="flex flex-col items-start gap-3 border-2 border-[#0052FF] md:w-[370px] px-4 mb-5 py-10  md:h-[480px] rounded-lg space-x-4 ">
             <img src={vegan_food} alt="vegan food" />
             <h1 className="text-[#0052FF] font-semibold text-lg">
               Hslistic Wellness
@@ -51,7 +51,7 @@ const Services = () => {
               </ul>
             </div>
           </div>
-          <div className="flex flex-col items-start gap-3  w-[370px] px-4 py-10 h-[480px]  rounded-lg bg-[#0052FF] text-[#F4FFEE] space-x-4 ">
+          <div className="flex flex-col items-start gap-3  md:w-[370px] px-4 py-10 md:h-[480px]  rounded-lg bg-[#0052FF] text-[#F4FFEE] space-x-4 ">
             <img src={Coronavirus} alt="Coronavirus" />
             <h1 className=" font-semibold font-Mulish text-lg">
               Allergy and Immunology

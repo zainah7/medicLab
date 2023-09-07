@@ -23,7 +23,7 @@ const OurDepartments = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-4 gap-5 pb-10 px-24">
+        <div className="grid md:grid-cols-4 gap-5 pb-10 px-24">
           <div className="flex flex-col bg-[#0052FF] items-center justify-center w-60 px-2 py-6 rounded-md">
         
             <PiBrainThin className="text-white text-7xl" />

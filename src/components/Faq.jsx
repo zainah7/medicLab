@@ -8,10 +8,10 @@ import FemaleDoctor from "../assets/humberto-chavez-FVh_yqLR9eA-unsplash 1.png";
 const Faq = () => {
   return (
     <>
-      <div className='p-5 bg-[#F9F9F9]'>
-      <h1 className='text-center text-2xl mt-10 font-semibold'>Frequently asked Questions</h1>
-<div className='flex justify-center items-center space-x-16'>
-  <div className='w-1/2 h-full'>
+      <div className='md:p-5 pt-5 bg-[#F9F9F9]'>
+      <h1 className='text-center text-xl md:text-2xl my-7 md:mt-10 font-semibold'>Frequently asked Questions</h1>
+<div className='md:flex justify-center px-5 items-center space-x-16'>
+  <div className='md:w-1/2 h-full'>
    <Accordion>
       <Accordion.Panel>
         <Accordion.Title className='text-[#0052FF]'>

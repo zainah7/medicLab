@@ -9,8 +9,8 @@ const OurSpecialists = () => {
       <div className="text-center font-semibold text-3xl font-Mulish  ">
         <h1 className="py-10 ">Our Specialists</h1>
       </div>
-      <div className="flex justify-center gap-10 ">
-        <div className="-[#0052FF] h-[505px] rounded-xl space-y-8 border-2 border-[#0052FF]">
+      <div className="md:flex justify-center gap-10 ">
+        <div className="md:h-[505px] mb-5 md:mb-0 rounded-xl space-y-8 border-2 border-[#0052FF]">
           <div>
             <img src={William_Geralg} alt="William Geralg img" />
           </div>
@@ -34,7 +34,7 @@ const OurSpecialists = () => {
           </div>
         </div>
 
-        <div className="border-2 border-[#0052FF] h-[505px] rounded-lg space-y-8">
+        <div className="border-2 mb-5 md:mb-0 border-[#0052FF] md:h-[505px] rounded-lg space-y-8">
           <div>
             <img src={Mike_Ebube} alt="Mike Ebube img" />
           </div>
@@ -57,7 +57,7 @@ const OurSpecialists = () => {
             </div>
           </div>
         </div>
-        <div className="border-2 border-[#0052FF] h-[505px] rounded-lg space-y-8">
+        <div className="border-2 border-[#0052FF] md:h-[505px] rounded-lg space-y-8">
           <div>
             <img src={Egbon_Cedric} alt="Egbon Cedric img" />
           </div>
