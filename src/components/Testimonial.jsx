@@ -20,14 +20,15 @@ const Testimonial = () => {
           className="absolute  top-1/4 left-1/2"
         />
         <div class="space-y-7 absolute top-1/2 right-96 left-1/3 flex flex-col justify-center items-center">
-        <p className="text-[#FFFFFF]">
-          “Joby made searching for a job easier and reduced the time framewhile
-          eliminating the office to office conventional mode of application”
-        </p>
-        <div className="flex">
-          <img src={star} alt="star" />
-          <img src={Orlando_Philip} alt=" Orlando Philip img" />
-        </div>
+          <p className="text-[#FFFFFF]">
+            “Joby made searching for a job easier and reduced the time
+            framewhile eliminating the office to office conventional mode of
+            application”
+          </p>
+          <div className="flex gap-4">
+            <img src={star} alt="star" />
+            <img src={Orlando_Philip} alt=" Orlando Philip img" />
+          </div>
         </div>
       </div>
     </div>

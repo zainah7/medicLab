@@ -7,7 +7,7 @@ import Services from "./components/Services";
 import OurSpecialists from "./components/OurSpecialists";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
-import Faq from "./components/Faq";
+// import Faq from "./components/Faq";
 function App() {
   return (
     <div>
@@ -20,6 +20,7 @@ function App() {
         <Faq />
         <OurSpecialists />
         <Testimonial />
+        <ContactUs />
         <Footer />
       </div>
     </div>
