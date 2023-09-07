@@ -1,6 +1,6 @@
 import React from "react";
 import { PiBrainThin } from "react-icons/pi";
-// import Psychiatry from "../assets/icons8_brain_200px 1.jpg";
+
 import Laboratory from "../assets/icons8_test_tube_240px 1.jpg";
 import Dentistry from "../assets/icons8_tooth_100px_1 1.jpg";
 import Cardiology from "../assets/icons8_heart_with_pulse_100px_1 1.jpg";
@@ -25,7 +25,7 @@ const OurDepartments = () => {
 
         <div className="grid grid-cols-4 gap-5 pb-10 px-24">
           <div className="flex flex-col bg-[#0052FF] items-center justify-center w-60 px-2 py-6 rounded-md">
-            {/* <img className="text-xl" src={Psychiatry} alt="" /> */}
+        
             <PiBrainThin className="text-white text-7xl" />
             <h1 className="text-white">Psychiatry</h1>
           </div>

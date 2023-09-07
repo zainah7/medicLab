@@ -2,12 +2,13 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
-import OurDepartments from "./components/OurDepartments";
+import OurDepartments from "./components/OurDepartments"
 import Services from "./components/Services";
 import OurSpecialists from "./components/OurSpecialists";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
-// import Faq from "./components/Faq";
+import Faq from "./components/Faq";
+import ContactUs from "./components/ContactUs";
 function App() {
   return (
     <div>
