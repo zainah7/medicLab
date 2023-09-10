@@ -6,7 +6,7 @@ import medicalDoctor from "../assets/icons8_Medical_Doctor_200px 1.jpg";
 const About = () => {
   return (
     <>
-    <div className="md:flex  item-center justify-between px-16 space-x-6 mt-7 py-16 ">
+    <div className="md:flex  item-center justify-between px-16 md:space-x-6 mt-7 py-16 ">
       <div className="flex flex-col gap-3 text-center items-center">
         <img className="" src={doctorBag} alt="Doctor Bag" />
         <h1 className="text-[#0052FF] font-semibold text-lg">

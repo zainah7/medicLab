@@ -7,16 +7,16 @@ const ContactUs = () => {
         <img
           src={bgImg}
           alt="austin-distel-img"
-          className="h-[695px] w-[576px] "
+          className="md:h-[695px] md:w-[576px] "
         />
       </div>
 
       <div className="bg-white flex">
-        <div className="">
-          <p className="text-center md:text-xl font-medium">
+        <div className="mx-10 md:mx-0">
+          <p className="text-center mb-4 md:text-xl font-semibold">
             Looking For a Professional Fullname
           </p>
-          <div className="w-full mt-2 mb-5 ml-0 relative space-y-8">
+          <div className="w-full mt-2 mb-5 relative  space-y-8">
             <div className="relative">
               <p
                 className="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-[#3A3A3A]
@@ -28,7 +28,7 @@ const ContactUs = () => {
                 placeholder="Jon Doe"
                 type="text"
                 className="border placeholder-gray-400 focus:outline-none
-                    focus:border-black w-3/4 md:w-full  text-base block bg-white
+                    focus:border-black w-full  text-base block bg-white
                     border-[#0052FF] rounded-md"
               />
             </div>
@@ -40,7 +40,7 @@ const ContactUs = () => {
                 placeholder="aiseosauyiidahor@gmail.com"
                 type="text"
                 className="border placeholder-gray-400 focus:outline-none
-                    focus:border-black w-3/4 md:w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
+                    focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
                     border-[#0052FF] rounded-md"
               />
             </div>
@@ -55,10 +55,10 @@ const ContactUs = () => {
                 placeholder="Type message here"
                 type="Message"
                 className="border focus:outline-none h-[100]  md:h-[199px]
-                    focus:border-black w-[250px] md:w-[500px] bg-white border-[#0052FF] rounded-md"
+                    focus:border-black w-full bg-white border-[#0052FF] rounded-md"
               />
             </div>
-            <button className="bg-[#0052FF]  text-[#FFFFFF] my-20 px-2 py-2 rounded-md">
+            <button  className="bg-[#0052FF]  text-[#FFFFFF] my-20 px-2 py-2 rounded-md">
               Book Appointmest
             </button>
           </div>

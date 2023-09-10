@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App";
 import logo from "../assets/LOGO.png";
+import MobileHeaderToggle from "./MobileMenu";
 
 const Navbar = () => {
+  const [toggle, setToggle] = useState(true);
+
+  const handleToggle = () => {
+    setToggle(!toggle);
+  };
   return (
     <>
       <div className="flex justify-between container p-5 absolute top-0 w-full">
@@ -29,6 +35,7 @@ const Navbar = () => {
             <a href="#contact-us">Contact us</a>
           </li>
         </ul>
+        <MobileHeaderToggle handleToggle={handleToggle} />
       </div>
     </>
   );
