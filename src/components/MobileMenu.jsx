@@ -9,7 +9,7 @@ import { AiOutlinePhone } from 'react-icons/ai';
 export default function MobileHeaderToggle({ handleToggle }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
-    <div className="flex items-center justify-between p-4 rounded-full border-grey-200 lg:hidden">
+    <div className="flex items-center justify-between p-4 rounded-full border-grey-200 md:hidden">
       <button
         type="button"
         className={'flex flex-col items-end justify-between w-5 h-4'}

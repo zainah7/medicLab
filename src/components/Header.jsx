@@ -12,7 +12,7 @@ const Header = () => {
         <img src={headerImg} alt="header-img" className="w-full" />
         <div className="overlay absolute inset-0 bg-gray-900 opacity-40"></div>
       </div> 
-      <div class="space-y-2 md:space-y-7 absolute top-20 left-14 md:top-1/3 md:left-1/3 flex flex-col justify-center items-center">
+      <div class="space-y-2 md:space-y-7 absolute top-20 left-14 md:left-44 md:top-44 lg:top-1/3 lg:left-1/3 flex flex-col justify-center items-center">
         <h2 className="text-white font-bold text-xl md:text-4xl justify-center">
           We Provide
         </h2>

@@ -12,7 +12,7 @@ const Services = () => {
             Our Services
           </h1>
         </div>
-        <div className="md:flex justify-center md:space-x-10 p-10 ">
+        <div className="lg:flex justify-center lg:space-x-10 p-10 ">
           <div className="flex flex-col items-start gap-3 border-2 border-[#0052FF] md:w-[370px] px-4 py-10 md:h-[480px] mb-5 rounded-lg space-x-4 ">
             <img src={nurse} alt="nurse" />
             <h1 className="font-Mulish text-[#0052FF] font-semibold text-lg ">
