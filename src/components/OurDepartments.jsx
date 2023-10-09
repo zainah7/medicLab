@@ -23,45 +23,51 @@ const OurDepartments = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 justify-center gap-5 pb-10 md:px-24">
-          <div className="flex flex-col bg-[#0052FF] items-center justify-center md:w-60 px-2 py-6 rounded-md">
+        <div className="container mx-auto flex flex-wrap gap-3">
+            <div className="flex flex-col bg-[#0052FF] items-center mx-auto justify-center w-60 px-2 py-6 rounded-md">
         
-            <PiBrainThin className="text-white text-7xl" />
+           <PiBrainThin className="text-white text-7xl" />
             <h1 className="text-white">Psychiatry</h1>
-          </div>
-          <div className="flex flex-col bg-white items-center justify-center w-60 px-2 py-6 rounded-md">
+           </div>
+          <div className="flex flex-col bg-white items-center mx-auto justify-center w-60 py-6 rounded-md">
             <img src={Laboratory} alt="Laboratory" />
             <h1 className="text-[#0052FF]">Laboratory</h1>
           </div>
-          <div className="flex flex-col bg-white items-center justify-center w-60 px-2 py-6 rounded-md">
+          <div className="flex flex-col bg-white items-center mx-auto justify-center w-60 px-2 py-6 rounded-md">
             <img src={Dentistry} alt="Dentistry" />
             <h1 className="text-[#0052FF]">Dentistry</h1>
           </div>
-          <div className="flex flex-col bg-white items-center justify-center w-60 px-2 py-6 rounded-md">
+          <div className="flex flex-col bg-white items-center mx-auto justify-center w-60 px-2 py-6 rounded-md">
             <img src={Cardiology} alt="Cardiology" />
             <h1 className="text-[#0052FF]">Cardiology</h1>
           </div>
-          <div className="flex flex-col bg-white items-center justify-center w-60 px-2 py-6 rounded-md">
+          <div className="flex flex-col bg-white items-center mx-auto justify-center w-60 px-2 py-6 rounded-md">
             <img src={Gynecology} alt="Gynecology" />
             <h1 className="text-[#0052FF]">Gynecology</h1>
           </div>
-          <div className="flex flex-col bg-white items-center justify-center w-60 px-2 py-6 rounded-md">
+          <div className="flex flex-col bg-white items-center mx-auto justify-center w-60 px-2 py-6 rounded-md">
             <img src={Medicine} alt="Medicine" />
             <h1 className="text-[#0052FF]">Medicine</h1>
           </div>
-          <div className="flex flex-col bg-white items-center justify-center w-60 px-2 py-6 rounded-md">
+          <div className="flex flex-col bg-white items-center mx-auto justify-center w-60 px-2 py-6 rounded-md">
             <img src={Emergency} alt="Emergency" />
             <h1 className="text-[#0052FF]">Emergency</h1>
           </div>
-          <div className="flex flex-col bg-white items-center justify-center w-60 px-2 py-6 rounded-md">
+          <div className="flex flex-col bg-white items-center mx-auto justify-center w-60 px-2 py-6 rounded-md">
             <img src={Pediatrics} alt="Pediatrics" />
             <h1 className="text-[#0052FF]">Pediatrics</h1>
           </div>
-          <div className="flex flex-col bg-white items-center justify-center w-60 px-2 py-6 rounded-md">
+          <div className="flex flex-col bg-white items-center mx-auto justify-center w-60 px-2 py-6 rounded-md">
             <img src={Gynecology} alt="Gynecology" />
             <h1 className="text-[#0052FF]">Gynecology</h1>
           </div>
+          <div className="flex flex-col bg-white items-center mx-auto justify-center w-60 px-2 py-6 rounded-md">
+            <img src={Cardiology} alt="Cardiology" />
+            <h1 className="text-[#0052FF]">Cardiology</h1>
+          </div>
         </div>
+
+
       </div>
     </>
   );

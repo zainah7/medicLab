@@ -10,7 +10,7 @@ import { BiLogoFacebook } from "react-icons/bi";
 const Footer = () => {
   return (
     <>
-      <div className="my-5">
+      <div className="mb-5">
         <img src={map} alt="map" />
       </div>
       <div className="text-center">
@@ -41,22 +41,6 @@ const Footer = () => {
           <p className="text-[#3A3A3A80]">Mon - Sat 8:00am - 9:00pm</p>
        </div>
       </div>
-
-
-      {/* <div className="md:flex justify-between mx-10">
-     
-     
-        <div className=" gap-2 text-center items-center">
-         
-        </div>
-        <div className=" gap-2 text-center items-center">
-         
-        </div>
-        <div className=" gap-2 text-center items-center">
-         
-        </div>
-      </div> */}
-
 
       <div className="md:flex space-y-5 md:space-y-0 justify-between items-center bg-[#0052FF] p-10 ">
          <div>

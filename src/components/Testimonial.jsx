@@ -11,14 +11,14 @@ const Testimonial = () => {
         <img src={Testimonial_img} alt="Testimonial img" className="" />
         <div className="overlay absolute inset-0 bg-[#0052FF80] opacity-100"></div>
 
-        <h1 className=" absolute top-1 right-[22rem] left-1/4  translate-y-1/2  font-lg text-[#ffffff] text-3xl">
+        <h1 className=" absolute top-1 right-[7rem] md:right-[15rem] lg:right-[22rem] left-1/4  translate-y-1/2  font-lg text-[#ffffff] text-3xl">
           Testimonial
         </h1>
-        <div class="md:space-y-7 text-sm md:text-lg absolute top-14 md:top-1/2 md:right-96 md:left-1/3 flex flex-col justify-center items-center">
+        <div class="lg:space-y-7 text-sm md:text-lg absolute top-14 md:top-32 lg:top-1/2 md:left-2 lg:right-96 lg:left-1/3 flex flex-col justify-center items-center">
         <img
           src={Ellipse}
           alt="Ellipse img"
-          className="hidden md:block absolute -top-24 left-1/3"
+          className="hidden lg:block absolute -top-24 left-1/3"
         />
           <p className="text-[#FFFFFF]">
             “Joby made searching for a job easier and reduced the time

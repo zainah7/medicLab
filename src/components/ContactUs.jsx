@@ -2,7 +2,7 @@ import React from "react";
 import bgImg from "../assets/austin-distel-7bMdiIqz_J4-unsplash 1@2x.png";
 const ContactUs = () => {
   return (
-    <div className="md:flex px-5 md:px-0 justify-around items-center">
+    <div className="md:flex px-5 md:px-3 justify-around items-center">
       <div>
         <img
           src={bgImg}
